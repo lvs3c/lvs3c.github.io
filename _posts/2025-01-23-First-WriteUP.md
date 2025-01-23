@@ -122,15 +122,15 @@ Para empezar, añadimos la entrada del dominio "`academy.htb`" en el archivo "`/
 
 Al ingresar a "`academy.htb`" en el navegador web, nos encontramos con lo que parece ser una página de la academia de Hack The Box.
 
-![web](web.png)
+
 
 La página web presenta enlaces de "Login" y "Register". Dado que no contamos con credenciales válidas, procederemos a registrar una cuenta y luego iniciar sesión.
 
-![login](login.png)
+
 
 Después de completar el proceso de registro, la página web nos direcciona primero a una página de bienvenida y luego nos redirige a la página de inicio de sesión (`login.php`). En este punto, procedemos a iniciar sesión utilizando las credenciales que habíamos creado anteriormente.
 
-![web2](web2.png)
+
 
 La página web presenta diversos módulos de la Hack The Box Academy, sin embargo, no parece haber ninguna funcionalidad activa. Por lo tanto, procederemos a enumerar los directorios y archivos ocultos. Para esta tarea, haremos uso de la herramienta [dirsearch](https://github.com/maurosoria/dirsearch).
 
@@ -158,7 +158,7 @@ Task Completed
 
 `dirsearch` revela varios archivos `PHP`, siendo "`admin.php`" el más destacado. Al acceder a "`/admin.php`", se presenta una página de inicio de sesión. Intentamos iniciar sesión utilizando nuestras credenciales registradas, pero lamentablemente el intento resulta fallido.
 
-![admin](admin.png)
+
 
 ## Explotación
 
@@ -166,7 +166,7 @@ Task Completed
 
 Vamos a intentar crear una nueva cuenta nuevamente y, al mismo tiempo, analizar la solicitud utilizando `Burp Suite` para entender cómo se procesa por detrás.
 
-![request](request.png)
+
 
 Observamos una solicitud **POST** que se envía a "`register.php`" con "`uid`" como nombre de usuario, "`password`" como contraseña y el parámetro "`roleid`", que está predefinido en `0`. Este último parámetro parece ser significativo, ya que parece indicar el rol del usuario. Por lo tanto, procedemos a modificar el valor de `0` a `1` para observar si se produce algún cambio.
 
@@ -176,7 +176,7 @@ uid=john&password=password&confirm=password&roleid=1
 
 Ingresar en "`login.php`" utilizando nuestras nuevas credenciales no nos otorga acceso a ninguna funcionalidad adicional. Sin embargo, esta vez logramos acceder a "`/admin.php`".
 
-![launch](launch.png)
+
 
 Tras iniciar sesión, nos encontramos con un "Academy Launch Planner" en el que se menciona el subdominio "`dev-staging-01.academy.htb`". Por lo tanto, procedemos a agregar esta entrada a nuestro archivo de hosts.
 
@@ -186,7 +186,7 @@ Tras iniciar sesión, nos encontramos con un "Academy Launch Planner" en el que 
 
 Al ingresar a "`dev-staging-01.academy.htb`", nos encontramos con lo que parece ser un error de Laravel.
 
-![dev](dev.png)
+
 
 En este punto, intentamos identificar la versión de Laravel sin embargo no tuvimos éxito.
 
@@ -194,7 +194,7 @@ Después de llevar a cabo varias búsquedas en Google, finalmente pudimos determ
 
 Para llevar a cabo la ejecución de este exploit, requerimos el `API_KEY`, afortunadamente lo podemos encontrar en la sección de "Environment & details".
 
-![key](key.png)
+
 
 El modo de uso del exploit es el siguiente:
 
@@ -228,7 +228,6 @@ www-data
 www-data@academy:/var/www/html/htb-academy-dev-01/public$
 ```
 
-Para tener una shell más interactiva, procedemos a realizar un [Tratamiento de la TTY](https://r1vs3c.github.io/posts/tratamiento-tty/).
 
 Ahora, en el directorio `/home`, realizamos una búsqueda recursiva de la user flag
 
@@ -382,7 +381,7 @@ User mrb3n may run the following commands on academy:
 
 Hay una entrada en [GTFOBins](https://gtfobins.github.io/gtfobins/composer/#sudo) para composer. Se trata de crear un archivo `composer.json` con una propiedad "scripts". 
 
-![composer](composer.png)
+
 
 Después de introducir estos comandos, logramos obtener un shell como root con éxito y podemos acceder a la flag de root.
 
