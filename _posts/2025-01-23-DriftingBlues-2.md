@@ -323,7 +323,7 @@ Nos ponemos en escucha de nuestro lado para recibir la reverse shell.
 ❯ rlwrap nc -nlvp 443
 ```
 
-Apúntamos la url a un destino que no exista y obtenemos la reverse shell.
+Apuntamos la url a un destino que no exista y obtenemos la reverse shell.
 
 ![post_non_exist](/assets/img/commons/vulnhub/DriftingBlues2/post_non_exist.png){: .center-image }
 
