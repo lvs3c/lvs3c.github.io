@@ -98,8 +98,8 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-# avatar: https://avatars.githubusercontent.com/u/352374?v=4
-avatar: https://vpnoverview.com/wp-content/uploads/what-is-a-hacker-what-is-hacking-featured.png
+avatar: https://avatars.githubusercontent.com/u/352374?v=4
+#avatar: https://vpnoverview.com/wp-content/uploads/what-is-a-hacker-what-is-hacking-featured.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
