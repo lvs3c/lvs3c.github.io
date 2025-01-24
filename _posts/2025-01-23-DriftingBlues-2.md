@@ -184,7 +184,9 @@ Nmap done: 1 IP address (1 host up) scanned in 1.02 seconds
 ```
 Dicho fuzzing encontró un CMS Wordpress situado en `/blog`. 
 
-Observamos en el código que la web busca recursos en el dns http://driftingblues.box/ con lo cual debemos agregar la entrada a nuestro `/etc/hosts`.
+Debido a que la web no carga correctamente, observamos en el código que la web busca recursos sobre el dominio http://driftingblues.box/ con lo cual debemos agregar la entrada a nuestro `/etc/hosts`.
+
+![blog_code](/assets/img/commons/vulnhub/DriftingBlues2/blog_code.png){: .center-image }
 
 ```shell
 echo '10.11.12.30 driftingblues.box' >> /etc/hosts
@@ -205,7 +207,9 @@ Comprobamos con `whatweb` /blog/.
 http://driftingblues.box/blog/ [200 OK] Apache[2.4.38], Country[RESERVED][ZZ], HTML5, HTTPServer[Debian Linux][Apache/2.4.38 (Debian)], IP[10.11.12.30], MetaGenerator[WordPress 5.6], PoweredBy[--], Script, Title[drifting blues tech blog], UncommonHeaders[link], WordPress[5.6]
 ```
 
-Estamos frente a **WordPress 5.6**. De igual manera, lanzamos `gobuster` para obtener más respuestas de directorios o archivos ocultos, tanto en la **raíz** como en **/blog/**, pero no obtuvimos urls ni archivos sensibles, pero notamos que la web tiene expuesto el archivo **xmlrpc.php** al cual podemos realizarles consultas por POST para listar métodos disponibles.
+Estamos frente a **WordPress 5.6**. 
+
+De igual manera, lanzamos `gobuster` para obtener más respuestas de directorios o archivos ocultos, tanto en la **raíz** como en **/blog/**, pero no obtuvimos urls ni archivos sensibles, pero notamos que la web tiene expuesto el archivo **xmlrpc.php** al cual podemos realizarles consultas por POST para listar métodos disponibles.
 
 Al ser Wordpress, podemos usar la herramienta `wpscan`, para encontrar vulnerabilidades y además hacer fuerza bruta sobre los usuarios encontrados.
 
@@ -473,5 +477,3 @@ NSE: Warning: Loading '/tmp/tmp.4vsOOCkNxI' -- the recommended file extension is
 congratulations!
 ```
 Hope it helps!
-
-Happy Hacking!
