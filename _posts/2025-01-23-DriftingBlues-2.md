@@ -2,12 +2,14 @@
 title: DriftingBlues 2 Writeup - Vulnhub
 date: 2025-01-23
 categories: [Writeups, Vulnhub]
-tags: [Linux, Vulnhub, CTF, Easy, HTTP]
+tags: [Linux, Vulnhub, CTF, Easy, HTTP, DriftingBlues]
 image:
   path: /assets/img/commons/vulnhub/vulnhub.jpg
 ---
 
 ¡Saludos!
+
+Continuamos con la serie **DriftingBlues**!
 
 En este writeup, nos sumergiremos en la máquina [**DriftingBlues2**](https://www.vulnhub.com/entry/driftingblues-2,634/) de **Vulnhub**, la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual debemos realizar una **enumeración web**, encontrando un blog basado en **Wordpress**. Crackearemos el usuario administrador ganando así acceso al panel de administración y luego generarnos una **reverse shell** para ingresar al sistema. Nos conectaremos por **ssh** gracias a la clave privada del usuario que podemos leer y explotamos el binario **nmap** para elevar nuestros privilegios como usuario **root**, obteniendo así las flags del CTF.
 
@@ -323,7 +325,7 @@ Nos ponemos en escucha de nuestro lado para recibir la reverse shell.
 ❯ rlwrap nc -nlvp 443
 ```
 
-Apuntamos la url a un destino que no exista y obtenemos la reverse shell.
+Apúntamos la url a un destino que no exista y obtenemos la reverse shell.
 
 ![post_non_exist](/assets/img/commons/vulnhub/DriftingBlues2/post_non_exist.png){: .center-image }
 
