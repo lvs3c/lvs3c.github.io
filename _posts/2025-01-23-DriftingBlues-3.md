@@ -388,7 +388,7 @@ os info
 Linux driftingblues 4.19.0-13-amd64 #1 SMP Debian 4.19.160-2 (2020-11-28) x86_64 GNU/Linux
 ```
 
-Si miramos el contenido, el binario ejecuta 3 comandos, los cuales muestram información sobre la ip `ip a`, archivo hosts `cat /etc/hosts` e información del sistema operativo `uname -a`.
+Si miramos el contenido, el binario ejecuta 3 comandos, los cuales muestran información sobre la ip `ip a`, archivo hosts `cat /etc/hosts` e información del sistema operativo `uname -a`.
 
 ```bash
 robertj@driftingblues:/tmp$ cat /usr/bin/getinfo
