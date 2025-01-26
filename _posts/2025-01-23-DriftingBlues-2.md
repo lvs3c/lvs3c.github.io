@@ -7,6 +7,8 @@ image:
   path: /assets/img/commons/vulnhub/vulnhub.jpg
 ---
 
+Resolución máquina anterior: [**DriftingBlues1**](https://lvs3c.github.io/posts/DriftingBlues-1/)
+
 ¡Saludos!
 
 Continuamos con la serie **DriftingBlues**!
