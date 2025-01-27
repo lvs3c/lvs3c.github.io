@@ -43,6 +43,8 @@ PING 10.11.12.28 (10.11.12.28) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.517/0.517/0.517/0.000 ms
 ```
 
+Dado que el `TTL` es 64, podemos inferir que la máquina objetivo este ejecutando un SO Linux.
+
 ## Escaneo
 
 ---
