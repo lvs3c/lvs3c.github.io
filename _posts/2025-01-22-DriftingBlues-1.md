@@ -69,10 +69,10 @@ Parámetros:
 
 - `-p-`: indica que se escaneen todos los puertos posibles (65535) del objetivo.
 - `--open`: indica que se muestren solo los puertos abiertos, ignorando los cerrados o filtrados.
-- `-n`: indica que no se haga resolución DNS.
 - `-sS`: indica que se use el tipo de escaneo TCP SYN.
-- `-Pn`: indica que se debe omitir el descubrimiento de hosts y asumir que todos los objetivos están vivos.
 - `--min-rate 5000`: indica que se envíen al menos 5000 paquetes por segundo.
+- `-n`: indica que no se haga resolución DNS.
+- `-Pn`: indica que se debe omitir el descubrimiento de hosts y asumir que todos los objetivos están vivos.
 - `10.11.12.28`: indica la dirección IP del objetivo a escanear.
 - `-oG nmap_ports`: indica que se guarde el resultado del escaneo en formato grepeable en el archivo nmap_ports.
 
@@ -110,6 +110,7 @@ Parámetros:
 - `-sV`: indica que se sondeen los puertos abiertos para determinar la información de servicio y versión.
 - `-sC`: indica que se ejecute el script por defecto de Nmap, que realiza varias pruebas comunes como detección de vulnerabilidades o enumeración de recursos.
 - Los parámetros `-sV` y `-sC` se pueden compactar en `-sCV`
+- `-oN nmap_services`: indica que se guarde el resultado del escaneo en formato normal en el archivo nmap_services.
 
 El informe de `Nmap` nos revela:
 - Puerto `22` se encuentra en ejecución un servidor `OpenSSH 7.2p1`
