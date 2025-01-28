@@ -32,6 +32,11 @@ Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
 3 packets received by filter, 0 packets dropped by kernel
 Ending arp-scan 1.10.0: 256 hosts scanned in 2.403 seconds (106.53 hosts/sec). 3 responded
 ```
+Parámetros:
+
+- `-I`: indica la interfaz que usaremos para escanear.
+- `--localnet`: Genera direcciones a partir de la configuración de la interfaz.
+- `--ignoredups`: Para que no nos informe duplicados.
 
 ```bash
 ❯ ping -c 1 10.11.12.28
@@ -42,6 +47,10 @@ PING 10.11.12.28 (10.11.12.28) 56(84) bytes of data.
 1 packets transmitted, 1 received, 0% packet loss, time 0ms
 rtt min/avg/max/mdev = 0.517/0.517/0.517/0.000 ms
 ```
+
+Parámetros:
+
+- `-c 1`: Cantidad de paquetes, indica que va a lanzar 1 paquete y finaliza.
 
 Dado que el `TTL` es 64, podemos inferir que la máquina objetivo este ejecutando un SO Linux.
 
