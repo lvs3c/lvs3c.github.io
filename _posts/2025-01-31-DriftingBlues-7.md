@@ -2,7 +2,7 @@
 title: DriftingBlues 7 Writeup - Vulnhub
 date: 2025-01-31
 categories: [Writeups, Vulnhub]
-tags: [Linux, Vulnhub, CTF, Easy, HTTP, DriftingBlues, Wordpress, wpscan, cewl, Hydra, wpscan]
+tags: [Linux, Vulnhub, CTF, Easy, HTTP, DriftingBlues]
 image:
   path: /assets/img/commons/vulnhub/vulnhub.jpg
 ---
