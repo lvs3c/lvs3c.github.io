@@ -11,7 +11,7 @@ Resolución máquina anterior: [**DriftingBlues5**](https://lvs3c.github.io/post
 
 ¡Saludos!
 
-En este writeup, nos adentraremos en la primer máquina [**DriftingBlues6**](https://www.vulnhub.com/entry/driftingblues-6,672/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **fuzzing** de directorios y archivos con `gobuster`, **fcrackzip** para desencriptar un archivo `zip` y obtener credenciales de un panel de administración, **file upload** para generarnos una reverse shell y usaremos el exploit **DirtyCow** para elevar nuestros privilegios como usuario **root**, obteniendo así la flag del CTF.
+En este writeup, nos adentraremos en la máquina [**DriftingBlues6**](https://www.vulnhub.com/entry/driftingblues-6,672/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **fuzzing** de directorios y archivos con `gobuster`, **fcrackzip** para desencriptar un archivo `zip` y obtener credenciales de un panel de administración, **file upload** para generarnos una reverse shell y usaremos el exploit **DirtyCow** para elevar nuestros privilegios como usuario **root**, obteniendo así la flag del CTF.
 
 ¡Empecemos!
 

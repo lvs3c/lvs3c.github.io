@@ -11,7 +11,7 @@ Resolución máquina anterior: [**DriftingBlues6**](https://lvs3c.github.io/post
 
 ¡Saludos!
 
-En este writeup, nos adentraremos en la primer máquina [**DriftingBlues7**](https://www.vulnhub.com/entry/driftingblues-7,680/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **fuzzing** de directorios y archivos, **fcrackzip** para desencriptar un comprimido y mediante su contenido poder ingresar al portal de administración de *Eyes of Network*, buscaremos por **searchsploit** un exploit para poder lanzarnos una reverse shell como root obteniendo las flags del CTF.
+En este writeup, nos adentraremos en la máquina [**DriftingBlues7**](https://www.vulnhub.com/entry/driftingblues-7,680/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **fuzzing** de directorios y archivos, **fcrackzip** para desencriptar un comprimido y mediante su contenido poder ingresar al portal de administración de *Eyes of Network*, buscaremos por **searchsploit** un exploit para poder lanzarnos una reverse shell como root obteniendo las flags del CTF.
 
 ¡Empecemos!
 

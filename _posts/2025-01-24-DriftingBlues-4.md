@@ -11,7 +11,7 @@ Resolución máquina anterior: [**DriftingBlues3**](https://lvs3c.github.io/post
 
 ¡Saludos!
 
-En este writeup, nos adentraremos en la primer máquina [**DriftingBlues4**](https://www.vulnhub.com/entry/driftingblues-4,661/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **Desencriptar cadena base64 - código Brainfuck**, utilizamos **QRScanner** para analizar un QR, **Hydra** para fuerta bruta del servicio `FTP`{: .filepath} y luego cargar nuestra clave pública SSH, **SSH** para conectarnos a la máquina víctima y utilizaremos **PATH Hijacking** para elevar nuestros privilegios como usuario **root**, obteniendo así las flags del CTF.
+En este writeup, nos adentraremos en la máquina [**DriftingBlues4**](https://www.vulnhub.com/entry/driftingblues-4,661/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **Desencriptar cadena base64 - código Brainfuck**, utilizamos **QRScanner** para analizar un QR, **Hydra** para fuerta bruta del servicio `FTP`{: .filepath} y luego cargar nuestra clave pública SSH, **SSH** para conectarnos a la máquina víctima y utilizaremos **PATH Hijacking** para elevar nuestros privilegios como usuario **root**, obteniendo así las flags del CTF.
 
 ¡Empecemos!
 

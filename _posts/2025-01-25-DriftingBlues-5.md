@@ -11,7 +11,7 @@ Resolución máquina anterior: [**DriftingBlues4**](https://lvs3c.github.io/post
 
 ¡Saludos!
 
-En este writeup, nos adentraremos en la primer máquina [**DriftingBlues5**](https://www.vulnhub.com/entry/driftingblues-5,662/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **cewl** para generar un diccionario y realizar fuerza bruta sobre **Wordpress** con **wpscan**, **Hydra** para fuerta bruta del servicio `SSH`{: .filepath} para luego conectarnos a la máquina víctima y utilizaremos **linPEAS** y **Pspy** para validar el sitema y procesos logrando así elevar nuestros privilegios como usuario **root**, obteniendo las flags del CTF.
+En este writeup, nos adentraremos en la máquina [**DriftingBlues5**](https://www.vulnhub.com/entry/driftingblues-5,662/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos **enumeración de servicios**, **cewl** para generar un diccionario y realizar fuerza bruta sobre **Wordpress** con **wpscan**, **Hydra** para fuerta bruta del servicio `SSH`{: .filepath} para luego conectarnos a la máquina víctima y utilizaremos **linPEAS** y **Pspy** para validar el sitema y procesos logrando así elevar nuestros privilegios como usuario **root**, obteniendo las flags del CTF.
 
 ¡Empecemos!
 
