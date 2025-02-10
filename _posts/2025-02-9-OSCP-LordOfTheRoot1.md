@@ -1,19 +1,19 @@
 ---
-title: Tr0ll1 Writeup - Vulnhub
-date: 2025-02-08
+title: Lord Of The Root 1.0.1 Writeup - Vulnhub
+date: 2025-02-09
 categories: [Writeups, Vulnhub OSCP]
-tags: [Linux, Vulnhub, CTF, Easy, HTTP, Tr0ll, OSCP]
+tags: [Linux, Vulnhub, CTF, Easy, HTTP, Lord Of The Root 1.0.1, OSCP]
 image:
-  path: /assets/img/commons/vulnhub/Tr0ll1/portada.png
+  path: /assets/img/commons/vulnhub/LordOfTheRoot_1.0.1/portada.png
 ---
+
+Anterior [**OSCP Lab 1**](https://lvs3c.github.io/posts/OSCP-Tr0ll1/)
 
 ¡Saludos!
 
-Vamos a comenzar con la serie `OSCP Labs`, la cual consta de 33 laboratorios, sobre la plataforma `VulnHub`.
+`OSCP Lab 2`
 
-`OSCP Lab 1`
-
-En este writeup, veremos la máquina [**Tr0ll 1**](https://www.vulnhub.com/entry/tr0ll-1,100/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos: 
+En este writeup, veremos la máquina [**Lord Of The Root 1.0.1**](https://www.vulnhub.com/entry/lord-of-the-root-101,129/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos: 
 - **Enumeración de servicios** con nmap.
 - **FTP** acceso como usuario anonymous, obteniendo archivo `.pcap`.
 - **Strings** para visualizar los datos del archivo `.pcap`, también se podía haber usado `wireshark`.
@@ -34,23 +34,23 @@ Necesitamos encontrar la ip correspondiente a la máquina, lo hacemos mediante l
 Interface: ens37, type: EN10MB, MAC: 00:0c:29:ef:5b:48, IPv4: 10.11.12.10
 Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
 10.11.12.1      00:50:56:c0:00:01       VMware, Inc.
-10.11.12.13     00:0c:29:39:e9:62       VMware, Inc.
+10.11.12.14     00:0c:29:e3:3b:88       VMware, Inc.
 10.11.12.200    00:50:56:e3:1f:27       VMware, Inc.
 
 3 packets received by filter, 0 packets dropped by kernel
-Ending arp-scan 1.10.0: 256 hosts scanned in 2.462 seconds (103.98 hosts/sec). 3 responded
+Ending arp-scan 1.10.0: 256 hosts scanned in 2.398 seconds (106.76 hosts/sec). 3 responded
+
 ```
 
 ```bash
-❯ ping -c 1 10.11.12.13
-PING 10.11.12.13 (10.11.12.13) 56(84) bytes of data.
-64 bytes from 10.11.12.13: icmp_seq=1 ttl=64 time=0.459 ms
-
---- 10.11.12.13 ping statistics ---
-1 packets transmitted, 1 received, 0% packet loss, time 0ms
-rtt min/avg/max/mdev = 0.459/0.459/0.459/0.000 ms
-
+❯ ping -c 1 10.11.12.14
+PING 10.11.12.14 (10.11.12.14) 56(84) bytes of data.
+^C
+--- 10.11.12.14 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
 ```
+
+La máquina no responde `ping`, esto puede deverse a reglas de firewall.
 
 ## Escaneo
 
@@ -59,7 +59,7 @@ rtt min/avg/max/mdev = 0.459/0.459/0.459/0.000 ms
 A continuación, realizamos un escaneo con `Nmap` para identificar los puertos abiertos en el sistema objetivo.
 
 ```bash
-❯ nmap -p- --open -sS --min-rate 5000 -n -Pn 10.11.12.13 -oG nmap_ports
+❯ -p- --open -sS --min-rate 5000 -n -Pn 10.11.12.13 -oG nmap_ports
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-08 21:03 -03
 Nmap scan report for 10.11.12.13
 Host is up (0.0050s latency).
