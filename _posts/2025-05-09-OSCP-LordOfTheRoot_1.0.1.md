@@ -20,8 +20,8 @@ En este writeup, veremos la máquina [**Lord Of The Root 1.0.1**](https://www.vu
 - **SQLinjection** para obtener datos de la base mediante panel de login.
 - **Hydra** para fuerza bruta sobre ssh, validando datos obtenidos.
 - Y por último, elevamos nuestro privilegio de dos maneras, para convertirnos en root y obtener la flag del CTF.
-        - Primera: Explotando un **Buffer Overflow**.
-        - Segunda: Explotando la vulnerabilidad **overlayfs**.
+  - Primera: Explotando un **Buffer Overflow**.
+  - Segunda: Explotando la vulnerabilidad **overlayfs**.
 
 Let's jump in!
 
