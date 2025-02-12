@@ -59,8 +59,8 @@ Seguidamente, efectuamos una enumeración de las versiones de los servicios asoc
 ```
 
 El informe de `Nmap` nos revela:
-- Puerto `22` servidor `OpenSSH 7.9p1`
-- Puerto `80` servidor `Apache 2.4.38` Donde puede correr un `CMS Wordpress`{: .filepath}.
+- Puerto `22` servidor `OpenSSH 7.9p1`.
+- Puerto `80` servidor `Apache 2.4.38`.
 
 
 ### HTTP - 80
