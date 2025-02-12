@@ -13,7 +13,7 @@ Anterior [**OSCP Lab 1**](https://lvs3c.github.io/posts/OSCP-Tr0ll1/)
 
 `OSCP Lab 2`
 
-En este writeup, veremos la máquina [**Lord Of The Root 1.0.1**](https://www.vulnhub.com/entry/lord-of-the-root-101,129/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos: 
+En este writeup, realizaremos la máquina [**Lord Of The Root 1.0.1**](https://www.vulnhub.com/entry/lord-of-the-root-101,129/). Se trata de una máquina **Linux** en la cual veremos: 
 - **Enumeración de servicios** con nmap.
 - **Port Knocking** para abrir puerto oculto.
 - **Desencriptar cadena base64** para obtener una dirección de la url.

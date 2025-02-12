@@ -13,9 +13,8 @@ Anterior [**OSCP Lab 2**](https://lvs3c.github.io/posts/OSCP-LordOfTheRoot_1.0.1
 
 `OSCP Lab 3`
 
-En este writeup, nos adentraremos en la primer máquina [**SickOs1.1**](https://www.vulnhub.com/entry/sickos-11,132/). 
-Se trata de una máquina **Linux** en la cual veremos:
-- **enumeración de servicios**.
+En este writeup, nos adentraremos en la máquina [**SickOs1.1**](https://www.vulnhub.com/entry/sickos-11,132/). Se trata de una máquina **Linux** en la cual veremos:
+- **Enumeración de servicios**.
 - **Squid Proxy** para consumir recurso interno de la máquina víctima.
 - **File Upload** para subir un archivo el cual nos genere la reverse shell.
 - **Tarea CRON** modificando un archivo python para añadir el bit SUID a la bash, convirtiéndonos en root y obtener las flags del CTF.
@@ -181,7 +180,7 @@ Finished
 ===============================================================
 ```
 
-Encontramos la entrada `/robots.txt` la cual con tiene una url que nos lleva al `CMS WOLF`.
+Encontramos el archivo `/robots.txt` la cual contiene una url que nos lleva al `CMS WOLF`.
 
 Volvemos a lanzar `gobuster` sobre los directorios `/wolfcms` y `/wolfcms/?`.
 
