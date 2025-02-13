@@ -18,9 +18,9 @@ En este writeup, realizaremos la máquina [**Lazysysadmin**](https://www.vulnhub
 
 Se trata de una máquina **Linux** en la cual veremos:
 - **Enumeración de servicios**.
-- **smbmap** para obtener archivos compartidos y acceso al CMS.
-- Mediante **Wordpress** obtener la reverse shell.
-- **User pivoting** con los datos obtenidos de un archivo.
+- **B**
+- **C**
+- **D**
 - Y por último, tenemos permisos full del usuario, con lo cual podemos convirtirnos en root y obtener las flags del CTF.
 
 ¡Empecemos!

@@ -2,7 +2,7 @@
 title: EvilScience Writeup - Vulnhub
 date: 2025-02-13
 categories: [Writeups, Vulnhub OSCP Prep]
-tags: [Linux, Vulnhub, CTF, EvilScience, OSCP Prep]
+tags: [Linux, Vulnhub, CTF, EvilScience, OSCP Prep, LFI, RCE]
 image:
   path: /assets/img/commons/vulnhub/EvilScience/portada.png
 ---
