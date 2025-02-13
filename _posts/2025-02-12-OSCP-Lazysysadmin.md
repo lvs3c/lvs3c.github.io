@@ -20,7 +20,7 @@ Se trata de una máquina **Linux** en la cual veremos:
 - **smbmap** para obtener archivos compartidos y acceso al CMS.
 - Mediante **Wordpress** obtener la reverse shell.
 - **User pivoting** con los datos obtenidos de un archivo.
-- Y por último, tenemos permisos full del usuario, con lo cual podemos convirtirnos en root y obtener las flags del CTF.
+- Y por último, tenemos permisos full del usuario sobre el OS, con lo cual podemos convertirnos en root y obtener la flag del CTF.
 
 ¡Empecemos!
 

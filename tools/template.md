@@ -1,25 +1,27 @@
 ---
-title: DriftingBlues 5 Writeup - Vulnhub
-date: 2025-01-25
-categories: [Writeups, Vulnhub]
-tags: [Linux, Vulnhub, CTF, Easy, HTTP, DriftingBlues, OSCP Prep]
+title: Lazysysadmin Writeup - Vulnhub
+date: 2025-02-12
+categories: [Writeups, Vulnhub OSCP Prep]
+tags: [Linux, Vulnhub, CTF, Lazysysadmin, OSCP Prep, smbmap, Wordpress]
 image:
-  path: /assets/img/commons/vulnhub/vulnhub.jpg
+  path: /assets/img/commons/vulnhub/lazysysadmin/portada.png
   #/assets/img/commons/vulnhub/DarkHole2/portada.png
 ---
 
-Resolución máquina anterior: [**DriftingBlues5**](https://lvs3c.github.io/posts/DriftingBlues-5/)
+Anterior [**OSCP Lab 3**](https://lvs3c.github.io/posts/OSCP-SickOs1.1/)
 
 ¡Saludos!
 
-En este writeup, nos adentraremos en la primer máquina [**DriftingBlues5**](https://www.vulnhub.com/entry/driftingblues-5,662/). Se trata de una máquina **Linux** en la cual veremos:
+`OSCP Lab 4`
+
+En este writeup, realizaremos la máquina [**Lazysysadmin**](https://www.vulnhub.com/entry/lazysysadmin-1,205/). 
+
+Se trata de una máquina **Linux** en la cual veremos:
 - **Enumeración de servicios**.
-- **GIT-Dumper** para obtener los datos de un repositorio desde la web, obteniendo datos de acceso al panel de login.
-- **SQLinjection** explicada de manera manual y automatizada con **sqlmap**, obteniendo de la base de datos información de usuario para conectarnos por SSH.
-- **User pivoting** mediante un servicio interno, lanzando una reverse shell.
-- Y por último, dos formas de elevar nuestros privilegios.
-    - Ejecutar **python** con permisos de root, logrando así elevar nuestros privilegios como usuario **root**, obteniendo las flags del CTF.
-    - Explotar la vulnerabilidad `CVE-2021-4034` sobre el binario `pkexec` con permiso `SUID`{: .filepath}, convirtiéndonos en root y obtener las flags del CTF.
+- **smbmap** para obtener archivos compartidos y acceso al CMS.
+- Mediante **Wordpress** obtener la reverse shell.
+- **User pivoting** con los datos obtenidos de un archivo.
+- Y por último, tenemos permisos full del usuario, con lo cual podemos convirtirnos en root y obtener las flags del CTF.
 
 ¡Empecemos!
 
@@ -30,7 +32,7 @@ En este writeup, nos adentraremos en la primer máquina [**DriftingBlues5**](htt
 Necesitamos encontrar la ip correspondiente a la máquina, lo hacemos mediante la herramienta `arp-scan` y posteriormente el comando `ping` para verificar si la máquina objetivo está activa.
 
 ```bash
-❯ arp-scan -I ens32 --localnet --ignoredups
+❯ sudo arp-scan -I ens37 --localnet --ignoredups
 ```
 
 ```bash
