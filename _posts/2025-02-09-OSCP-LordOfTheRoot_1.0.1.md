@@ -358,7 +358,7 @@ smeagol@LordOfTheRoot:~$
 > Podemos escalar privilegios de varias formas, vamos a ver **dos** maneras distintas.
 {: .prompt-tip }
 
-Listamos los binarios `SUID` del sistema, de acá podemos tener las `dos`{: .filepath} primeras formas.
+Listamos los binarios `SUID` del sistema, acá tenemos las `dos`{: .filepath} formas.
 
 ```bash
 smeagol@LordOfTheRoot:~$ find / -perm -4000 2>/dev/null

