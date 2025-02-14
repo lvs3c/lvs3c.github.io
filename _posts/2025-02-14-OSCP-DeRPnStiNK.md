@@ -4,7 +4,7 @@ date: 2025-02-13
 categories: [Writeups, Vulnhub OSCP Prep]
 tags: [Linux, Vulnhub, CTF, DeRPnStiNK, OSCP Prep]
 image:
-  path: /assets/img/commons/vulnhub/DeRPnStiNK/portada.png
+  #path: /assets/img/commons/vulnhub/DeRPnStiNK/portada.png
 ---
 
 Anterior [**OSCP Lab 6**](https://lvs3c.github.io/posts/OSCP-w1r3s/)
