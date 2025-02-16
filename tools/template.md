@@ -21,7 +21,7 @@ Se trata de una máquina **Linux** en la cual veremos:
 - **B**
 - **C**
 - **D**
-- Y por último, tenemos permisos full del usuario, con lo cual podemos convirtirnos en root y obtener las flags del CTF.
+- Y por último, tenemos permisos full del usuario, con lo cual podemos convertirnos en root y obtener las flags del CTF.
 
 ¡Empecemos!
 
@@ -105,3 +105,8 @@ Listamos la Flag 2.
 ```
 
 Hope it helps!
+
+> The posts' _layout_ has been set to `post` by default, so there is no need to add the variable _layout_ in the Front Matter block.
+{: .prompt-tip }
+{: .prompt-info }
+{: .prompt-warning }
