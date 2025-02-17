@@ -583,7 +583,7 @@ Cambiamos al usuario `mrderp`.
 
 ---
 
-Listamos los permisos sobre el sistema y tenemos permiso total sobre los archivo *derpy* dentro de *binaries*.
+Listamos los permisos sobre el sistema y tenemos permiso total sobre los archivos *derpy* dentro de *binaries*.
 
 ```bash
 mrderp@DeRPnStiNK:~$ sudo -l
