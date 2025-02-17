@@ -573,6 +573,7 @@ Viendo el contenido con `strings`, damos con la clave de `mrderp`{: .filepath}.
 ❯ sudo nc -nlvp 443 > derpissues.pcap
 ❯ strings derpissues.pcap | grep mrderp
 action=createuser&_wpnonce_create-user=b250402af6&_wp_http_referer=%2Fweblog%2Fwp-admin%2Fuser-new.php&user_login=mrderp&email=mrderp%40derpnstink.local&first_name=mr&last_name=derp&url=%2Fhome%2Fmrderp&pass1=derpderpderpderpderpderpderp&pass1-text=derpderpderpderpderpderpderp&pass2=derpderpderpderpderpderpderp&pw_weak=on&role=administrator&createuser=Add+New+User
+❯ pass1=derpderpderpderpderpderpderp
 ```
 
 Cambiamos al usuario `mrderp`.
@@ -582,7 +583,7 @@ Cambiamos al usuario `mrderp`.
 
 ---
 
-Listamos los permisos sobre el sistema y tenemos permiso total sobre los archivo *derpy** dentro de *binaries*.
+Listamos los permisos sobre el sistema y tenemos permiso total sobre los archivo *derpy* dentro de *binaries*.
 
 ```bash
 mrderp@DeRPnStiNK:~$ sudo -l
@@ -595,7 +596,7 @@ User mrderp may run the following commands on DeRPnStiNK:
 
 El directorio y archivos en `/binaries/derpy*` no existen, con lo cual debemos crearlos.
 
-Creamos un archivo bash que solamente al ejecutar el comando, nos la devuelva con usuario root.
+Creamos un archivo bash que solamente al ejecutar el comando, nos devuelva la shell con usuario root.
 
 Listamos la flag 4.
 
