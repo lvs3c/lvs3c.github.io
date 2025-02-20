@@ -18,7 +18,7 @@ En este writeup, realizaremos la máquina [**WinterMute-Straylight**](https://ww
 Se trata de una máquina **Linux** en la cual veremos:
 - **Enumeración de servicios**.
 - **LFI** para listar archivo de logs.
-- **Log Poisoning** para envenenar en log mediante `smtp`{: .filepath} y obtener ejecución de códiogo remoto.
+- **Log Poisoning** para envenenar en log mediante `smtp`{: .filepath} y obtener ejecución de código remoto.
 - Y por último, explotar el binario `screen`{: .filepath} convirtiéndonos en root y obtener la flag del CTF.
 
 Let's jump in!
