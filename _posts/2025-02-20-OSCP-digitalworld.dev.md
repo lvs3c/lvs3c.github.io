@@ -2,7 +2,7 @@
 title: Digitalworld.local-DEVELOPMENT Writeup - Vulnhub
 date: 2025-02-20
 categories: [Writeups, Vulnhub OSCP Prep]
-tags: [Linux, Vulnhub, CTF, digitalworld.local, OSCP Prep, smbmap, Wordpress]
+tags: [Linux, Vulnhub, CTF, digitalworld.local, OSCP Prep]
 image:
   path: /assets/img/commons/vulnhub/digitalworld.local-DEVELOPMENT/portada.png
 ---
