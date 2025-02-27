@@ -2,7 +2,7 @@
 title: digitalworld.local-JOY Writeup - Vulnhub
 date: 2025-02-20
 categories: [Writeups, Vulnhub OSCP Prep]
-tags: [Linux, Vulnhub, CTF, digitalworld.local-JOY, OSCP Prep]
+tags: [Linux, Vulnhub, CTF, digitalworld.local-JOY, OSCP Prep, FTP]
 image:
   path: /assets/img/commons/vulnhub/joy/portada.png
 ---
