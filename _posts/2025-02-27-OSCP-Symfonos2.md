@@ -254,7 +254,7 @@ Verificando los puertos internos, observamos el puerto 8080 que corre internamen
 ![apache](/assets/img/commons/vulnhub/symfonos2/apache.png){: .center-image }
 ![8080](/assets/img/commons/vulnhub/symfonos2/8080.png){: .center-image }
 
-Generamos por SSH la conexión mediante port fowarding.
+Generamos por SSH la conexión mediante port forwarding.
 
 ![portfowarding](/assets/img/commons/vulnhub/symfonos2/portfowarding.png){: .center-image }
 
