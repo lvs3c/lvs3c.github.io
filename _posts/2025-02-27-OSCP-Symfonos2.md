@@ -19,7 +19,7 @@ Se trata de una máquina **Linux** en la cual veremos:
 - **Enumeración de servicios**.
 - **Explotar servicio ProFTPd** obteniendo archivo shadow.
 - **John** para crackear los hashes.
-- **Port Fowarding** mediante `SSH`{: .filepath} para exponer un servicio interno.
+- **Port Forwarding** mediante `SSH`{: .filepath} para exponer un servicio interno.
 - **Vulnerar LibreNMS** software para monitoreo de red, obteniendo **User Pivoting**.
 - Y por último, tenemos permisos sobre `mysql`{: .filepath}, con lo cual podemos convertirnos en root y obtener las flag del CTF.
 
