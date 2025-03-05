@@ -2,7 +2,7 @@
 title: Misdirection1 Writeup - Vulnhub
 date: 2025-03-03
 categories: [Writeups, Vulnhub OSCP Prep]
-tags: [Linux, Vulnhub, CTF, Prime1, OSCP Prep, LXD]
+tags: [Linux, Vulnhub, CTF, Misdirection1, OSCP Prep, LXD]
 image:
   path: /assets/img/commons/vulnhub/Misdirection1/portada.png
 ---
