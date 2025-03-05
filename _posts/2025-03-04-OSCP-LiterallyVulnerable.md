@@ -2,7 +2,7 @@
 title: LiterallyVulnerable Writeup - Vulnhub
 date: 2025-03-03
 categories: [Writeups, Vulnhub OSCP Prep]
-tags: [Linux, Vulnhub, CTF, LiterallyVulnerable, OSCP Prep, LXD]
+tags: [Linux, Vulnhub, CTF, LiterallyVulnerable, OSCP Prep, Wordpress, wpscan]
 image:
   path: /assets/img/commons/vulnhub/LiterallyVulnerable/portada.png
 ---
