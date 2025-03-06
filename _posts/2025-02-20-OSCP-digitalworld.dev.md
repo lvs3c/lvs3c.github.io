@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/digitalworld.local-DEVELOPMENT/portada.png
 ---
 
-Anterior [**OSCP Lab 9**](https://lvs3c.github.io/posts/OSCP-SickOs1.1/)
+Anterior [*OSCP Lab 9*](https://lvs3c.github.io/posts/OSCP-SickOs1.1/)
 
 ¡Saludos!
 
-`OSCP Lab 10`
+**`OSCP Lab 10`**
 
 En este writeup, realizaremos la máquina [**digitalworld.local-DEVELOPMENT**](https://www.vulnhub.com/entry/digitalworldlocal-development,280/). 
 

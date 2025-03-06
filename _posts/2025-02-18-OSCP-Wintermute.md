@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/Wintermute/portada.png
 ---
 
-Anterior [**OSCP Lab 8**](https://lvs3c.github.io/posts/OSCP-GoldenEye-v1/)
+Anterior [*OSCP Lab 8*](https://lvs3c.github.io/posts/OSCP-GoldenEye-v1/)
 
 ¡Saludos!
 
-`OSCP Lab 9`
+**`OSCP Lab 9`**
 
 En este writeup, realizaremos la máquina [**WinterMute-Straylight**](https://www.vulnhub.com/entry/wintermute-1,239/). 
 

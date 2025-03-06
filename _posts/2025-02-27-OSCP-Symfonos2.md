@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/symfonos2/portada.png
 ---
 
-Anterior [**OSCP Lab 12**](https://lvs3c.github.io/posts/OSCP-digitalworld.torment/)
+Anterior [*OSCP Lab 12*](https://lvs3c.github.io/posts/OSCP-digitalworld.torment/)
 
 ¡Saludos!
 
-`OSCP Lab 13`
+**`OSCP Lab 13`**
 
 En este writeup, realizaremos la máquina [**Symfonos 2**](https://www.vulnhub.com/entry/symfonos-2,331/). 
 

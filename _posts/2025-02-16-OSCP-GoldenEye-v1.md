@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/GoldenEye1/portada.png
 ---
 
-Anterior [**OSCP Lab 7**](https://lvs3c.github.io/posts/OSCP-DeRPnStiNK/)
+Anterior [*OSCP Lab 7*](https://lvs3c.github.io/posts/OSCP-DeRPnStiNK/)
 
 ¡Saludos!
 
-`OSCP Lab 8`
+**`OSCP Lab 8`**
 
 En este writeup, realizaremos la máquina [**GoldenEye 1**](https://www.vulnhub.com/entry/goldeneye-1,240/). 
 

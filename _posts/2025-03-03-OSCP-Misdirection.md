@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/Misdirection1/portada.png
 ---
 
-Anterior [**OSCP Lab 14**](https://lvs3c.github.io/posts/OSCP-Prime1/)
+Anterior [*OSCP Lab 14*](https://lvs3c.github.io/posts/OSCP-Prime1/)
 
 ¡Saludos!
 
-`OSCP Lab 15`
+**`OSCP Lab 15`**
 
 En este writeup, realizaremos la máquina [**Misdirection 1**](https://www.vulnhub.com/entry/misdirection-1,371/). 
 

@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/lazysysadmin/portada.png
 ---
 
-Anterior [**OSCP Lab 3**](https://lvs3c.github.io/posts/OSCP-SickOs1.1/)
+Anterior [*OSCP Lab 3*](https://lvs3c.github.io/posts/OSCP-SickOs1.1/)
 
 ¡Saludos!
 
-`OSCP Lab 4`
+**`OSCP Lab 4`**
 
 En este writeup, realizaremos la máquina [**Lazysysadmin**](https://www.vulnhub.com/entry/lazysysadmin-1,205/). 
 

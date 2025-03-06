@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/SickOs1.1/portada.png
 ---
 
-Anterior [**OSCP Lab 2**](https://lvs3c.github.io/posts/OSCP-LordOfTheRoot_1.0.1/)
+Anterior [*OSCP Lab 2*](https://lvs3c.github.io/posts/OSCP-LordOfTheRoot_1.0.1/)
 
 ¡Saludos!
 
-`OSCP Lab 3`
+**`OSCP Lab 3`**
 
 En este writeup, nos adentraremos en la máquina [**SickOs1.1**](https://www.vulnhub.com/entry/sickos-11,132/). Se trata de una máquina **Linux** en la cual veremos:
 - **Enumeración de servicios**.

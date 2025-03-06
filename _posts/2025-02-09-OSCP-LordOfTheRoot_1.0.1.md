@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/LordOfTheRoot1/portada.png
 ---
 
-Anterior [**OSCP Lab 1**](https://lvs3c.github.io/posts/OSCP-Tr0ll1/)
+Anterior [*OSCP Lab 1*](https://lvs3c.github.io/posts/OSCP-Tr0ll1/)
 
 ¡Saludos!
 
-`OSCP Lab 2`
+**`OSCP Lab 2`**
 
 En este writeup, realizaremos la máquina [**Lord Of The Root 1.0.1**](https://www.vulnhub.com/entry/lord-of-the-root-101,129/). Se trata de una máquina **Linux** en la cual veremos: 
 - **Enumeración de servicios** con nmap.

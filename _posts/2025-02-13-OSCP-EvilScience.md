@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/EvilScience/portada.png
 ---
 
-Anterior [**OSCP Lab 4**](https://lvs3c.github.io/posts/OSCP-Lazysysadmin/)
+Anterior [*OSCP Lab 4*](https://lvs3c.github.io/posts/OSCP-Lazysysadmin/)
 
 ¡Saludos!
 
-`OSCP Lab 5`
+**`OSCP Lab 5`**
 
 En este writeup, realizaremos la máquina [**EvilScience**](https://www.vulnhub.com/entry/the-ether-evilscience-v101,212/). 
 

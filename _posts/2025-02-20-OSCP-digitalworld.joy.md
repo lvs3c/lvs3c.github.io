@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/joy/portada.png
 ---
 
-Anterior [**OSCP Lab 10**](https://lvs3c.github.io/posts/OSCP-digitalworld.local/)
+Anterior [*OSCP Lab 10*](https://lvs3c.github.io/posts/OSCP-digitalworld.local/)
 
 ¡Saludos!
 
-`OSCP Lab 11`
+**`OSCP Lab 11`**
 
 En este writeup, realizaremos la máquina [**digitalworld.local: JOY**](https://www.vulnhub.com/entry/digitalworldlocal-joy,298/). 
 

@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/DeRPnStiNK/portada.png
 ---
 
-Anterior [**OSCP Lab 6**](https://lvs3c.github.io/posts/OSCP-w1r3s/)
+Anterior [*OSCP Lab 6*](https://lvs3c.github.io/posts/OSCP-w1r3s/)
 
 ¡Saludos!
 
-`OSCP Lab 7`
+**`OSCP Lab 7`**
 
 En este writeup, realizaremos la máquina [**DeRPnStiNK**](https://www.vulnhub.com/entry/derpnstink-1,221/). 
 

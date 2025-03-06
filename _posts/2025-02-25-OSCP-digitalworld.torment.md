@@ -7,11 +7,11 @@ image:
   path: /assets/img/commons/vulnhub/torment/portada.png
 ---
 
-Anterior [**OSCP Lab 11**](https://lvs3c.github.io/posts/OSCP-digitalworld.joy/)
+Anterior [*OSCP Lab 11*](https://lvs3c.github.io/posts/OSCP-digitalworld.joy/)
 
 ¡Saludos!
 
-`OSCP Lab 12`
+**`OSCP Lab 12`**
 
 En este writeup, realizaremos la máquina [**digitalworld.local: TORMENT**](https://www.vulnhub.com/entry/digitalworldlocal-torment,299/). 
 
