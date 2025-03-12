@@ -1,6 +1,6 @@
 ---
 title: GlasgowSmile1 Writeup - Vulnhub
-date: 2025-03-11
+date: 2025-03-09
 categories: [Writeups, Vulnhub OSCP Prep]
 tags: [Linux, Vulnhub, CTF, GlasgowSmile1, OSCP Prep, Joomla, joomscan, ROT13, cewl]
 image:
