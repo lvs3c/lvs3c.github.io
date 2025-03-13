@@ -8,11 +8,11 @@ image:
   #/assets/img/commons/vulnhub/DarkHole2/portada.png
 ---
 
-Anterior [**OSCP Lab 3**](https://lvs3c.github.io/posts/OSCP-SickOs1.1/)
+Anterior [*OSCP Lab 18*](https://lvs3c.github.io/posts/OSCP-SickOs1.1/)
 
 ¡Saludos!
 
-`OSCP Lab 4`
+**`OSCP Lab 19`**
 
 En este writeup, realizaremos la máquina [**Lazysysadmin**](https://www.vulnhub.com/entry/lazysysadmin-1,205/). 
 
