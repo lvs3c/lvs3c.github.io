@@ -80,6 +80,8 @@ Continuamos realizando un fuzzing de directorios rápido con el script `http-enu
 
 ```
 
+Lanzamoos `gobuster` para obtener más información sobre archivos o directorios.
+
 ![wordpress](/assets/img/commons/vulnhub/DriftingBlues5/wordpress.png){: .center-image }
 
 ## Explotación
