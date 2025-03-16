@@ -18,6 +18,7 @@ En este writeup, realizaremos la máquina [**Lazysysadmin**](https://www.vulnhub
 
 Se trata de una máquina **Linux** en la cual veremos:
 - **Enumeración de servicios**.
+- **Fuzzing de archivos y directorios**.
 - **B**
 - **C**
 - **D**

@@ -2,7 +2,7 @@
 title: Healthcare-1 Writeup - Vulnhub
 date: 2025-03-14
 categories: [Writeups, Vulnhub OSCP Prep]
-tags: [Linux, Vulnhub, CTF, healthcare-1, OSCP Prep, SQLinjection, Ghidra, PATH Hijacking]
+tags: [Linux, Vulnhub, CTF, Healthcare-1, OSCP Prep, SQLinjection, Ghidra, PATH Hijacking]
 image:
   path: /assets/img/commons/vulnhub/healthcare1/portada.png
 ---
@@ -17,7 +17,7 @@ En este writeup, realizaremos la máquina [**Healthcare 1**](https://www.vulnhub
 
 Se trata de una máquina **Linux** en la cual veremos:
 - **Enumeración de servicios**.
-- **Fuzzing de directorios**.
+- **Fuzzing de archivos y directorios**.
 - Vulnerabilidad **SQL injection time based** sobre panel de autenticación.
 - Modificación de archivos de configuración para tener **Ejecución de comandos**.
 - Y por último, **PATH Hijacking** analizando un binario logrando elevar privilegios y posteriormente listar las flags del CTF.
