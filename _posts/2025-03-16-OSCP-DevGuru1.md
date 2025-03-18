@@ -1,6 +1,6 @@
 ---
 title: DevGuru1 Writeup - Vulnhub
-date: 2025-03-14
+date: 2025-03-16
 categories: [Writeups, Vulnhub OSCP Prep]
 tags: [Linux, Vulnhub, CTF, DevGuru1, OSCP Prep]
 image:
