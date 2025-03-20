@@ -54,7 +54,7 @@ A continuación, realizamos un escaneo con `Nmap` para identificar los puertos a
 
 ---
 
-Seguidamente, efectuamos una enumeración de las versiones de los servicios asociados a los puertos abiertos. Además, ejecutamos un conjunto de scripts predeterminados de `Nmap` para realizar pruebas complementarias sobre los puertos y servicios identificados.
+Seguidamente, efectuamos una enumeración de las versiones de los servicios asociados y ejecutamos un conjunto de scripts predeterminados de `Nmap` para realizar pruebas complementarias sobre los puertos y servicios identificados.
 
 ```bash
 ❯ nmap -p22,80 -sCV 10.11.12.35 -oN nmap_services
